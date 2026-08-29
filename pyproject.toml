@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kids-FruitCatch"
+version = "0.1.0"
+description = "Kids Fruit Catch game"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [ { name = "Shibajob" } ]
+dependencies = [
+  "opencv-python==4.13.0.92",
+  "numpy==2.4.6",
+  "mediapipe==0.10.14",
+  "protobuf==4.25.9",
+]
+
+[project.optional-dependencies]
+build = [
+  "pyinstaller==6.22.2",
+]
+
+[project.scripts]
+kids-FruitCatch = "kids_FruitCatch.top:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
