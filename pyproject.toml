@@ -12,6 +12,7 @@ authors = [ { name = "Shibajob" } ]
 dependencies = [
   "opencv-python==4.13.0.92",
   "numpy==2.4.6",
+  "Pillow==12.2.0",
   "mediapipe==0.10.14",
   "protobuf==4.25.9",
 ]

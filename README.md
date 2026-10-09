@@ -56,6 +56,7 @@ kids-FruitCatch
 
 操作:
 - タイトル画面: `SPACE` を押してゲーム開始、`ESC` で終了
+- タイトル画面には `images/fruits/` のオレンジとりんご画像を表示します
 - ゲーム中: `r` で録画の開始/停止（録画は `records/` に mp4 で保存）
 - ゲーム終了: `ESC`
 
@@ -101,4 +102,3 @@ pyinstaller --noconfirm --clean --onefile --windowed `
 
 ## ライセンス
 MIT ライセンス（LICENSE ファイルを参照）
-
